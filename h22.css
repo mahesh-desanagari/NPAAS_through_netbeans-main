@@ -1,0 +1,261 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 03-Dec-2023, 4:07:54 pm
+    Author     : sudharshan
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.black-background1 {
+    background-image:url("home.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.black-background {
+    background-image:url("ne.jpg");
+    background-size:cover;
+    height:100vh;
+}
+.royal-logo {
+    width: 80px;
+    height: 70px;
+    border-radius: 100px;
+    
+}
+#navItem1 {
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: white;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: white;
+    font-family: "Roboto";
+}
+.royal-section {
+    padding: 2px;
+    margin: 0px;
+}
+.royal-logo1{
+    width: 150px;
+    height: 130px;
+    border-radius: 150px;
+}
+
+
+
+.royal-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.royal-description {
+    color: white;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.body-container {
+    background-image:linear-gradient(black, grey);
+    
+}
+
+.feedbackex {
+    border-radius: 50px;
+}
+
+.feedbackpart {
+    background-color: #323f4b;
+    padding: 20px;
+}
+
+
+
+.feedbackpara1 {
+    color: #9aa5b1;
+}
+
+.feedbackheading1 {
+    color: white;
+}
+
+.feedbackimage {
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+}
+
+
+
+.feedbackpara {
+    color: #cced00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.feedbackheading {
+    color: rgb(232, 240, 230);
+    font-weight: bold;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+.icon1{
+    color: #d6d4cb;
+    
+}
+.footer-section {
+    background-image: radial-gradient(#6e6e6a, #080808);
+}
+
+.footer-section-mail-id {
+    color: #959ead;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-section-address {
+    color: #959ead;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.para {
+    text-align: right;
+    color:white;
+    margin-right: 20px;
+}
+
+
+.login {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.login-button {
+    background-color:transparent;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:white;
+    font-size: 10px;
+    font-weight:bold;
+    font-style:italic;
+    border-radius:14px;
+    margin:10px;
+}
+.ex {
+    background-color:lightblue;
+    
+}
+.ex1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img {
+    height: 270px;
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+.card1 {
+    background-image: linear-gradient(#b2c8eb, #e1e4e8);
+    border-radius: 10px;
+    margin: 30px;
+    
+    
+    
+}
+.cardinner{
+    height: 150px;
+}
+.heading {
+    color:white;
+    margin-top:50px;
+}
+.content {
+    text-align: center;
+    color: white;
+    font-family:"caveat";
+}
+.border{
+    margin-top:20px;
+    text-align: center;
+    border-radius:43px;
+    padding:30px;
+    width:1200px;
+    align-self:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.user_feedback {
+    text-align: center;
+    margin:20px;
+}
+.feedback-form{
+    padding: 20px;
+}
+.input-field {
+    background-color: rgb(0, 0, 0, 0.4);
+    border-style: solid;
+    border-color: black;
+    padding:10px;
+    color: white;
+}
+.feed-discription {
+    background-color: rgb(0, 0, 0, 0.4);
+    border-style: solid;
+    border-color: black;
+    padding:10px;
+    color: white;
+    margin-top: 10px;
+}
+.feedback-btn {
+    background-color: blue;
+    padding:10px;
+    margin-top:10px;
+    border-style:none;
+    border-radius: 10px;
+}
